@@ -14,7 +14,7 @@ if (resp === "Sim") {
     }
     alert(
         "Cidades que " + nome + " visitou:\n" + cidade +
-        "\nTotal: " + cont + " cidades.")
+        ".\nTotal: " + cont + " cidades.")
 } else {
     alert("Obrigado pela atenção!")
 }
