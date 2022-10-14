@@ -5,6 +5,8 @@ for (let i = palavra.length - 1; i >= 0; i--) {
     palavraInvertida += palavra[i]
 } 
 
+console.log(palavra.length - 1)
+
 if (palavra === palavraInvertida) {
     alert(palavra + " é um palíndromo!")
 } else {
