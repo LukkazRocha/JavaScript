@@ -47,6 +47,7 @@ function handleBoardClick(ev) {
   console.table(vBoard);
 
   disableRegion(span);
+  const winsRegions = getWinRegions();
 }
 
 document.getElementById('start').addEventListener('click', initializeGame);
