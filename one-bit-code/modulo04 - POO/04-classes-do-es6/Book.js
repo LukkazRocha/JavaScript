@@ -1,5 +1,20 @@
-class Book {}
+class Book {
+  constructor(title) {
+    this.title = title;
+    this.published = false;
+  }
 
-const eragon = new Book();
+  publish() {
+    this.published = true;
+  }
+}
+
+const eragon = new Book('Eragon');
+const eldest = new Book('Eldest');
+
+eragon.publish();
 
 console.log(eragon);
+console.log(eldest);
+
+console.log([eragon, eldest] instanceof Array);
