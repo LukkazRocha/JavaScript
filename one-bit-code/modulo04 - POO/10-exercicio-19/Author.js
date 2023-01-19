@@ -10,6 +10,7 @@ class Author {
     const post = new Post(title, body, this);
     this.posts.push(post);
     return post;
+    // this.posts.push(new Post(title, body, this));
   }
 }
 

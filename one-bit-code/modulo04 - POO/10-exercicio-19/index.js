@@ -4,11 +4,11 @@ const john = new Author('John Doe');
 
 const post = john.writePost(
   'Título do post',
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid...'
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid'
 );
 
 post.addComment('Isaac Pontes', 'Muito bom!');
-post.addComment('Lucas', 'Achei interessante');
+post.addComment('Lucas Rocha', 'Achei interessante!');
 
 console.log(john);
 console.log(post);

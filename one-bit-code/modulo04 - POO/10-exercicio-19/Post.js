@@ -6,7 +6,6 @@ class Post {
     this.body = body;
     this.author = author;
     this.comments = [];
-    this.createdAt = new Date();
   }
 
   addComment(userName, content) {
