@@ -1,5 +1,5 @@
-let fruits = ['Banana', 'Laranja', 'Maçã', 'Pera'];
+let fruits = ['Banana', 'Laranja', 'Maçã', 'Pera', 'Uva'];
 
-let bigFruits = fruits.filter((item) => item.length > 4);
+let temUva = fruits.includes('Uva');
 
-console.log(bigFruits);
+console.log(temUva);
