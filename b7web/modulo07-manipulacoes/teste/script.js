@@ -1,13 +1,7 @@
-let array = ['Lucas Rocha', 'Lucas', 'Rocha', '@luukas'];
+let cartao = '1234123412341234';
 
-const [, , , instagram] = array;
+let lastDigits = cartao.slice(0, 3);
 
-console.log(instagram);
+let cartaoMascarado = lastDigits.padEnd(16, '*');
 
-function criar() {
-  return [1, 2, 3];
-}
-
-let [a, b, c] = criar();
-
-console.log(a, b, c);
+console.log('Este é o seu cartão? ' + cartaoMascarado);
